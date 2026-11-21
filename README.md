@@ -459,13 +459,6 @@ Only mark a task complete after testing it.
 
 ## Screenshots and demo
 
-Add screenshots **after validating each page**. A good portfolio presentation would include:
-
-1. Storefront and product grid.
-2. Product detail view.
-3. Cart and checkout interface.
-4. Wishlist or account pages.
-5. Experimental virtual try-on or lipstick interface, if working.
 
 Suggested repository organization:
 
@@ -477,31 +470,6 @@ docs/
     Γö£ΓöÇΓöÇ cart.png
     ΓööΓöÇΓöÇ virtual-try-on.png
 ```
-
-Avoid uploading personal photographs, real customer information, passwords, or identifiable test data. No screenshots are embedded here because verified, publication-safe images have not yet been supplied.
-
-## Roadmap
-
-### Priority 1 ΓÇö Reliability and security
-
-- Refactor duplicate views, imports, and model fields.
-- Fix inconsistencies between URL patterns and view arguments.
-- Review cart ownership, CSRF safeguards, and checkout validation.
-- Add automated tests for accounts, cart, orders, and security-sensitive endpoints.
-
-### Priority 2 ΓÇö Reproducibility and maintainability
-
-- Pin or lock dependency versions after testing a supported Python release.
-- Add safe sample data and clear fixtures.
-- Document feature status and configuration required by optional modules.
-- Introduce a CI workflow to run Django checks and tests.
-
-### Priority 3 ΓÇö Portfolio and user experience
-
-- Add verified screenshots and a short demonstration video.
-- Improve responsive styling, accessibility, and error states.
-- Document experimental vision and conversational features with separate demos.
-- Add deployment documentation after security remediation.
 
 ## Acknowledgements and attribution
 
