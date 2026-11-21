@@ -1,0 +1,8 @@
+Django
+Pillow
+opencv-python
+numpy
+mediapipe
+pandas
+scikit-learn
+opencage

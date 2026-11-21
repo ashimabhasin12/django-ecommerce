@@ -1,0 +1,12 @@
+<!--COMP 3450: <Abhinav Bhatia>-->
+    {% extends 'main.html' %}
+
+{% block content %}
+    {% if product %}
+        <h1>{{ product.name }}</h1>
+        <p>{{ product.description }}</p>
+        <!-- Add other product details here -->
+    {% else %}
+        <p>No matching product found.</p>
+    {% endif %}
+{% endblock %}
